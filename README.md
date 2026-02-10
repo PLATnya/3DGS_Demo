@@ -6,6 +6,21 @@
 ## Pipeline
 Place input photos in `~/data`, and then follow commands from COMMANDS.md 
 
+## Result folders
+ALL RESULTS COULD BE FOUND [HERE](https://icedrive.net/s/x4Cu3igk98Ww6W1xRPw1tz2BGSNP)
+- **vipe_out** - Folder with result model after VIPE usage on data
+- **vipe_out_colmap_bin** - VIPE result in COLMAP format
+- **gauss_out** - Results after Gaussian Splatting, including checkpoing, train/test data, result model
+
+*RESULT MODEL COULD BE FOUND IN* **./gauss_out/point_cloud/iteration_10000/point_cloud.ply** 
+
+## Result videos
+ALL RESULTS COULD BE FOUND [HERE](https://icedrive.net/s/x4Cu3igk98Ww6W1xRPw1tz2BGSNP)
+- **zavod.mp4** - initial video
+- **demo.mp4** - render video
+- **development.mp4** - process of full flow execution
+- **clouds.mp4** - render visualization
+
 ## Environment
 - Tested on **runpod.io** pod. Official image **runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404** 
 - RTX A4500 1x 20GB - (not enough for default or dav3 VIPE pipelines)
